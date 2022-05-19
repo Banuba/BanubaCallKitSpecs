@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BanubaCallKitSDK'
-  s.version          = "1.0.10"
+  s.version          = "1.1.0"
   s.summary          = 'BanubaCallKitSDK framework creates connection between your peers with BanubaEffectPlayer'
   s.description      = 'BanubaCallKitSDK.framework is powerfull tool to create connection between your clients using RTC tool and BanubaEffectPlayer'
   s.license          = 'MIT'
