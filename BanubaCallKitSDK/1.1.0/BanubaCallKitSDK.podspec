@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.dependency 'BNBFaceTracker', '= 1.4.0'
   s.dependency 'BNBBackground', '= 1.4.0'
 
-  
-  s.source_files = 'Classes/**/*.{h,m,swift,metal}'
+  s.source_files = 'BanubaCallKitSDK/Classes/**/*.{h,m,swift,metal}'
+  s.exclude_files = "BanubaCallKitSDK/*.plist"
   s.weak_framework = 'MetalKit'
   s.ios.pod_target_xcconfig = {
     'METAL_LIBRARY_OUTPUT_DIR' => '${TARGET_BUILD_DIR}/BanubaCallKitSDK.bundle/'
