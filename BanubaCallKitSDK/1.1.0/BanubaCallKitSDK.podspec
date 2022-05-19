@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.homepage         = 'https://bitbucket.org/BanubaLimited/video_conferencing_fes2_lib_ios.git'
   s.author           = { 'A. Sak' => 'andrei.sak@banuba.com' }
-  s.source           = { :git => 'https://bitbucket.org/BanubaLimited/video_conferencing_fes2_lib_ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@bitbucket.org:BanubaLimited/video_conferencing_fes2_lib_ios.git', :tag => s.version.to_s }
   s.swift_version    = '5.0'
   
   s.ios.deployment_target = '12.0'
